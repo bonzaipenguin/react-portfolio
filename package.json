@@ -1,0 +1,39 @@
+{
+  "name": "new-portfolio",
+  "version": "1.0.0",
+  "description": "My updated portfolio",
+  "main": "index.js",
+  "scripts": {
+    "dev": "parcel index.html",
+    "format": "prettier \"src/**/*.{js,html}\" --write",
+    "lint": "eslint \"src/**/*.{js,jsx}\" --quiet",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bonzaipenguin/react-portfolio.git"
+  },
+  "keywords": [],
+  "author": "Jerusha Johnson",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bonzaipenguin/react-portfolio/issues"
+  },
+  "homepage": "https://github.com/bonzaipenguin/react-portfolio",
+  "devDependencies": {
+    "eslint": "^7.18.0",
+    "eslint-config-prettier": "^7.2.0",
+    "parcel-bundler": "^1.12.4",
+    "prettier": "^2.2.1",
+    "sass": "^1.32.5"
+  },
+  "dependencies": {
+    "bootstrap": "^4.6.0",
+    "jquery": "^3.5.1",
+    "popper.js": "^1.16.1",
+    "react": "^17.0.1",
+    "react-bootstrap": "^1.4.3",
+    "react-dom": "^17.0.1",
+    "react-router-dom": "^5.2.0"
+  }
+}
