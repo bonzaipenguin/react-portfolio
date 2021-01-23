@@ -1,0 +1,14 @@
+@import './global.scss';
+
+.list-inline-item {
+  padding: 0 .5rem;
+
+  &:not(:last-child) {
+    margin: 0;
+    border-right: 1px solid $light-gray;
+  }
+
+  &:first-child {
+    padding-left: 0;
+  }
+}

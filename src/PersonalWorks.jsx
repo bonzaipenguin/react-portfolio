@@ -28,16 +28,16 @@ const PersonalList = [
 
 const PersonalWorks = () => {
   return (
-    <Row>
+    <Row className="spacing-top spacing-bottom">
       <Col sm={12}>
+        <h5 className="text-muted section-title">Personal Work</h5>
         <CardDeck>
           {
             PersonalList.map(item => (
-              <Card key={item.id}>
+              <Card key={item.id} className="box-shadow">
                 <Card.Img variant="top" src={item.img} />
                 <Card.Body>
                   <Card.Title>{item.name}</Card.Title>
-                  <Card.Text>{item.company}</Card.Text>
                 </Card.Body>
               </Card>
             ))

@@ -2,6 +2,7 @@
 
 body {
   font-family: 'Source Sans Pro', sans-serif;
+  background-color: #fafafa;
 }
 
 h1,
@@ -14,4 +15,47 @@ h2,
 
 $black: #141414;
 $pink: #ff3399;
+$light-gray:#d2d2d2;
 
+$lg:36px;
+$md:24px;
+$sm:16px;
+$xs:12px;
+$xxs:8px;
+
+a {
+  color: $black;
+  text-decoration: none;
+  padding: 0 0 2px;
+  border-bottom: 1px solid transparent;
+  margin: .5rem 1rem;
+
+  &:hover,
+  &.hover {
+    color: $pink;
+    border-color: $pink;
+    text-decoration: none;
+  }
+
+  &:active,
+  &:focus {
+    color: $pink;
+    border-color: $pink;
+    text-decoration: none;
+  }
+}
+
+.spacing-top{
+  padding-top: $lg;
+}
+.spacing-bottom {
+  padding-bottom: $lg;
+}
+.section-title{
+  padding-bottom:$sm;
+  font-weight: 300;
+}
+
+.box-shadow {
+  box-shadow: 0 1px 1px 0 rgba(66, 66, 66, 0.08), 0 1px 3px 1px rgba(66, 66, 66, 0.16);
+}
