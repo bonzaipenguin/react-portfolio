@@ -1,4 +1,5 @@
-import React, { useState, useEffect } from 'react';
+/* eslint-disable react/no-unescaped-entities */
+import React from 'react';
 import { Row, Col, Dropdown } from 'react-bootstrap';
 import './styles/header.scss';
 
@@ -10,8 +11,10 @@ const Header = () => {
         <h5 className="text-muted text-center">Coffee Drinker, Product Thinker, Chronic Doodler</h5>
         <ul className="list-inline text-center">
           <li className="list-inline-item"><a href="/">Who Am I?</a></li>
-          <li className="list-inline-item"><a href="https://www.linkedin.com/in/jerushajohnson/" target="_blank">LinkedIn</a></li>
-          <li className="list-inline-item"><a href="/" target="_blank">Résumé</a></li>
+          <li className="list-inline-item">
+            <a href="https://www.linkedin.com/in/jerushajohnson/">LinkedIn</a>
+          </li>
+          <li className="list-inline-item"><a href="/">Résumé</a></li>
           <li className="list-inline-item">
             <Dropdown>
               <Dropdown.Toggle>Work</Dropdown.Toggle>
